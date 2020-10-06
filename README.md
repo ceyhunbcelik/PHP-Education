@@ -187,10 +187,10 @@ It's not necessary but if you work together and have to put rules about data typ
 some helpful functions for array operations. I already know much more but some of functions is necessary? I don't know. I wrote comment side of code if you're want to check.
 
 #### 2. Array Functions - 2
-in this functions, it's making amazing manipulate arrays like a filter, random, search, shift, pop etc
+in this functions, it's making amazing manipulate arrays like a filter, random, search, shift, pop etc.
 
 #### 3. Array Functions - 3
--
+easy to manipulate index position by these functions.
 
 #### 4. String Functions
 -

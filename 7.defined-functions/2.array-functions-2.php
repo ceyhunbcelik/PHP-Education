@@ -147,9 +147,4 @@
   // Array ( [0] => Ceyhun [1] => Şeyma [4] => Bahadır )
 
 
-
-
-
-
-
 ?>
