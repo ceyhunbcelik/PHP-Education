@@ -185,7 +185,7 @@ It's not necessary but if you work together and have to put rules about data typ
 | 5      | prinf() Functions   |
 
 #### 1. Array Functions - 1
--
+some helpful functions for array operations. I already know much more but some of functions is necessary? I don't know. I wrote comment side of code if you're want to check.
 
 #### 2. Array Functions - 2
 -
