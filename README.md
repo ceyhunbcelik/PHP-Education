@@ -172,7 +172,7 @@ Maybe it's not necessary in simple projects but if you want to do big project(mo
 if you call a function 2 times and if each calls make a operation, every operation gonna clear before operation. If you want to keep all of this, you need to use "static" variable.
 
 #### 8. Return Selected Data Type from Function
-It's not necessary but if you work together and have to put rules about data type, it's necessary.  This features of PHP 7 making possibble to return selected data type and making strong with declare "strict_types = 1"
+It's not necessary but if you work together and have to put rules about data type, it's necessary.  This features of PHP 7 making possible to return selected data type and making strong with declare "strict_types = 1"
 
 ### 6. Defined Functions
 
