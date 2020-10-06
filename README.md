@@ -12,7 +12,6 @@ I think we shouldn't look what is the best of programming language. I think we s
 ![php](https://upload.wikimedia.org/wikipedia/commons/2/27/PHP-logo.svg)
 
 **Course(Turkish):** [Click](https://www.udemy.com/course/php-egitim-seti/)
-**Trailer(Turkish)** [Click](https://mp4-a.udemycdn.com/2020-03-31_02-05-47-74e4767903b8ec217ed78f0c959d857d/WebHD_720p.mp4?IOaT4uSBVlGZws0GKs2BARhzCJ--VZn7yAY4IADARZRABrqGFz-2xpvatRUIEUtcZc_mSaWrgqquTjMusb2qSlQHNv8pCCXTbiApkk2E6LTxwcaLUVoB4EMh-M3XTJeswbwx_inOTzoC0Jvr6_b9DMxHdR7Mm1dMzMTR-lZGw3n24Q)
 
 # Contents
 
@@ -188,7 +187,7 @@ It's not necessary but if you work together and have to put rules about data typ
 some helpful functions for array operations. I already know much more but some of functions is necessary? I don't know. I wrote comment side of code if you're want to check.
 
 #### 2. Array Functions - 2
--
+in this functions, it's making amazing manipulate arrays like a filter, random, search, shift, pop etc
 
 #### 3. Array Functions - 3
 -
