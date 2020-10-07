@@ -193,7 +193,7 @@ in this functions, it's making amazing manipulate arrays like a filter, random, 
 easy to manipulate index position by these functions.
 
 #### 4. String Functions
--
+making manipulate and possible to getting info from string value
 
 #### 5. prinf() Functions
 -
