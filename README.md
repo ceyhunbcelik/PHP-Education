@@ -24,6 +24,7 @@ I think we shouldn't look what is the best of programming language. I think we s
 | 5      | Loops              |
 | 6      | Functions          |
 | 7      | Defined Functions  |
+| 8      | Form               |
 
 ### 1.Introduction
 
@@ -197,3 +198,28 @@ making manipulate and possible to getting info from string value
 
 #### 5. prinf() Functions
 making manipulate a string without assignment operations before print
+
+### 8. Form
+
+| Number | Subject               |
+| ---    | ---                   |
+| 1      | Simple Form           |
+| 2      | POST                  |
+| 3      | GET                   |
+| 4      | REQUEST               |
+| 5      | Multiple FORM request |
+
+#### 1. Simple Form
+-
+
+#### 2. POST
+-
+
+#### 3. GET
+-
+
+#### 4. REQUEST
+-
+
+#### 5. Multiple FORM request
+-
