@@ -196,4 +196,4 @@ easy to manipulate index position by these functions.
 making manipulate and possible to getting info from string value
 
 #### 5. prinf() Functions
--
+making manipulate a string without assignment operations before print
