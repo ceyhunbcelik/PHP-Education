@@ -204,21 +204,21 @@ making manipulate a string without assignment operations before print
 | Number | Subject               |
 | ---    | ---                   |
 | 1      | Simple Form           |
-| 2      | POST                  |
-| 3      | GET                   |
-| 4      | REQUEST               |
+| 2      | POST Method           |
+| 3      | GET  Method           |
+| 4      | REQUEST Method        |
 | 5      | Multiple FORM request |
 
 #### 1. Simple Form
+Create a simple form tools without CSS and what's difference between them
+
+#### 2. POST Method
 -
 
-#### 2. POST
+#### 3. GET Method
 -
 
-#### 3. GET
--
-
-#### 4. REQUEST
+#### 4. REQUEST Method
 -
 
 #### 5. Multiple FORM request
