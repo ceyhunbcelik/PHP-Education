@@ -14,7 +14,7 @@
   <br>
   <hr>
   About:<br>
-  <textarea required name='name' rows='5' cols='50' placeholder='Tell me something..'></textarea>
+  <textarea required name='about' rows='5' cols='50' placeholder='Tell me something..'></textarea>
   <hr>
   Job:<br>
   <select name='job'>
@@ -48,7 +48,7 @@
   <input type='file' name='picture'>
   <hr>
   Job:<br>
-  <select name='job[]' multiple size='5'>
+  <select name='job2[]' multiple size='5'>
     <option>-- Select --</option>
     <option value='web-developer'>Web Developer</option>
     <option value='front-end-developer'>Front-end Developer</option>

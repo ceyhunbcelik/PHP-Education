@@ -213,7 +213,7 @@ making manipulate a string without assignment operations before print
 Create a simple form tools without CSS and what's difference between them
 
 #### 2. POST Method
--
+After simple form, i learned how to make post, how to check my post,  and how to make with secure my post also learned new function to make safe.
 
 #### 3. GET Method
 -
