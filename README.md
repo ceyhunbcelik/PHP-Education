@@ -219,7 +219,7 @@ After simple form, i learned how to make post, how to check my post,  and how to
 if i should say something about GET, this is not secure for private info and database operations. So we can use for "search" and maybe update operation with session check. But working principle is same by POST method.
 
 #### 4. REQUEST Method
--
+difference from GET and POST method is can do both of job by same command. If form method is GET, REQUEST method will do GET method, if it's POST, will be same result, is up to you. 
 
 #### 5. Multiple FORM request
 -
