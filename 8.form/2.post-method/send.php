@@ -21,11 +21,13 @@
 
   // echo htmlspecialchars($_POST['about']);
 
-  function form_filer($post){
-    return is_array($post) ? array_map('form_filer', $post) : htmlspecialchars(trim($post));
+  function form_filter($post){
+    return is_array($post)
+            ? array_map('form_filer', $post)
+            : htmlspecialchars(trim($post));
   }
 
-  $_POST = array_map('form_filer', $_POST);
+  $_POST = array_map('form_filter', $_POST);
 
   function post($name){
     if(isset($_POST[$name]))

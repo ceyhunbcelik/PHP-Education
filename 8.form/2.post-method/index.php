@@ -1,10 +1,12 @@
 <?php
 
-function form_filer($post){
-  return is_array($post) ? array_map('form_filer', $post) : htmlspecialchars(trim($post));
+function form_filter($get){
+  return is_array($get)
+          ? array_map('form_filer', $get)
+          : htmlspecialchars(trim($get));
 }
 
-$_POST = array_map('form_filer', $_POST);
+$_POST = array_map('form_filter', $_POST);
 
 function post($name){
   if(isset($_POST[$name]))

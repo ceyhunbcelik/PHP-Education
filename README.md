@@ -216,7 +216,7 @@ Create a simple form tools without CSS and what's difference between them
 After simple form, i learned how to make post, how to check my post,  and how to make with secure my post also learned new function to make safe.
 
 #### 3. GET Method
--
+if i should say something about GET, this is not secure for private info and database operations. So we can use for "search" and maybe update operation with session check. But working principle is same by POST method.
 
 #### 4. REQUEST Method
 -
