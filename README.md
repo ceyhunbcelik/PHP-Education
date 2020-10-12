@@ -175,7 +175,7 @@ if you call a function 2 times and if each calls make a operation, every operati
 #### 8. Return Selected Data Type from Function
 It's not necessary but if you work together and have to put rules about data type, it's necessary.  This features of PHP 7 making possible to return selected data type and making strong with declare "strict_types = 1"
 
-### 6. Defined Functions
+### 7. Defined Functions
 
 | Number | Subject             |
 | ---    | ---                 |
@@ -253,7 +253,7 @@ PHP getting error if you include not exists file. You're need to check file exis
 CHMOD is so important for file security. Read/Write permission and execute config making by numbers between 0 and 7
 
 #### 6. List Files in Directory
--
+we are need to 2 function to list all of files. That functions can get filter parameter or handle it in first parameter by string. It's useful for include multiple files.
 
 #### 7. Rename/Move File and Directory
 -
