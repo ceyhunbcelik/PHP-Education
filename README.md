@@ -229,31 +229,31 @@ separation of form post method is depend to hidden input. Line: 32-44
 
 | Number | Subject                          |
 | ---    | ---                              |
-| 1      | Call Folder [Include/Require]    |
-| 2      | Create/Read/Delete Folder        |
+| 1      | Call File [Include/Require]      |
+| 2      | Create/Read/Delete File          |
 | 3      | Create/Delete Directory          |
-| 4      | Check Exists Folder/Directory    |
-| 5      | CHMOD Config in Folder/Directory |
-| 6      | List Folders in Directory        |
-| 7      | Rename/Move Folder and Directory |
+| 4      | Check Exists File/Directory      |
+| 5      | CHMOD Config in File/Directory   |
+| 6      | List Files in Directory          |
+| 7      | Rename/Move File and Directory   |
 
-#### 1. Call Folder [Include/Require]
+#### 1. Call File [Include/Require]
 what's the difference between include and require, if i should once include or require, exists components(header, footer) and merge in 1 file.
 
-#### 2. Create/Read/Delete Folder
--
+#### 2. Create/Read/Delete File
+how to create, read and delete file.  how to make both of read and delete also check inside of file
 
 #### 3. Create/Delete Directory
 -
 
-#### 4. Check Exists Folder/Directory
+#### 4. Check Exists File/Directory
 -
 
-#### 5. CHMOD Config in Folder/Directory
+#### 5. CHMOD Config in File/Directory
 -
 
-#### 6. List Folders in Directory
+#### 6. List Files in Directory
 -
 
-#### 7. Rename/Move Folder and Directory
+#### 7. Rename/Move File and Directory
 -
