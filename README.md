@@ -241,7 +241,7 @@ separation of form post method is depend to hidden input. Line: 32-44
 what's the difference between include and require, if i should once include or require, exists components(header, footer) and merge in 1 file.
 
 #### 2. Create/Read/Delete File
-how to create, read and delete file.  how to make both of read and delete also check inside of file
+how to create, read and delete file.  how to make both of read and write and also check inside of file
 
 #### 3. Create/Delete Directory
 -
