@@ -250,7 +250,7 @@ we can create folder with access permission for users and delete folder.
 PHP getting error if you include not exists file. You're need to check file exists before include.
 
 #### 5. CHMOD Config in File/Directory
--
+CHMOD is so important for file security. Read/Write permission and execute config making by numbers between 0 and 7
 
 #### 6. List Files in Directory
 -
