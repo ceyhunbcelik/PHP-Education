@@ -244,7 +244,7 @@ what's the difference between include and require, if i should once include or r
 how to create, read and delete file.  how to make both of read and write and also check inside of file
 
 #### 3. Create/Delete Directory
--
+we can create folder with access permission for users and delete folder.
 
 #### 4. Check Exists File/Directory
 -
