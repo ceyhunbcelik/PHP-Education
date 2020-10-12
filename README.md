@@ -247,7 +247,7 @@ how to create, read and delete file.  how to make both of read and write and als
 we can create folder with access permission for users and delete folder.
 
 #### 4. Check Exists File/Directory
--
+PHP getting error if you include not exists file. You're need to check file exists before include.
 
 #### 5. CHMOD Config in File/Directory
 -
