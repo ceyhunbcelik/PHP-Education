@@ -256,4 +256,4 @@ CHMOD is so important for file security. Read/Write permission and execute confi
 we are need to 2 function to list all of files. That functions can get filter parameter or handle it in first parameter by string. It's useful for include multiple files.
 
 #### 7. Rename/Move File and Directory
--
+possible to rename file and folder and also move file and folder only need 1 function
