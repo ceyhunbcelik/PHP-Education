@@ -237,8 +237,8 @@ separation of form post method is depend to hidden input. Line: 32-44
 | 6      | List Folders in Directory        |
 | 7      | Rename/Move Folder and Directory |
 
-#### 1. Multiple FORM request
--
+#### 1. Call Folder [Include/Require]
+what's the difference between include and require, if i should once include or require, exists components(header, footer) and merge in 1 file.
 
 #### 2. Create/Read/Delete Folder
 -
