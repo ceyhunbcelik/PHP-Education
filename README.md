@@ -27,6 +27,7 @@ I think we shouldn't look what is the best of programming language. I think we s
 | 8      | Form                          |
 | 9      | File and Directory Operations |
 | 10     | Session                       |
+| 11     | File Upload                   |
 
 ### 1.Introduction
 
@@ -285,3 +286,28 @@ Keep time in session while make login operations and check time() every time and
 
 #### 5. Deploy Array in Cookie and Session
 so simple for session, assign an array value and that's it. first params should be array and index is name of value. I know cookie is weird in PHP.
+
+### 10. File Upload
+
+| Number | Subject                  |
+| ---    | ---                      |
+| 1      | Form Example             |
+| 2      | Get File Info by $_FILES |
+| 3      | Upload File              |
+| 4      | Convert to the Function  |
+| 5      | Upload Multiple Files    |
+
+#### 1. Form Example
+-
+
+#### 2. Get File Info by $_FILES
+-
+
+#### 3. Upload File
+-
+
+#### 4. Convert to the Function
+-
+
+#### 5. Upload Multiple Files
+-
