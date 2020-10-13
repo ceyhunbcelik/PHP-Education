@@ -28,8 +28,9 @@ I think we shouldn't look what is the best of programming language. I think we s
 | 9      | File and Directory Operations |
 | 10     | Session                       |
 | 11     | File Upload                   |
+| 12     | MySQL                         |
 
-### 1.Introduction
+### 1. Introduction
 
 | Number | Subject            |
 | ---    | ---                |
@@ -309,3 +310,17 @@ my upload codes are turned to function. Errors and true result return in array.
 
 #### 5. Upload Multiple Files
 possible to upload multiple file like a upload once with same rules.
+
+## Why MSQL?
+I'm so glad to say something in here. Everything will be more colorful after that. Anyway. Let's start.
+
+I'm using MongoDB while coding Node.js. I still not passed free limit that's why my answer is not gonna be clear but if i have to say, if US Dollar more valuable than Turkish Lira and it is more than 7, eveything is looking complex and expensive. So you just think about "I want to see everthing under 1 price and if i pay, i will not pay anything till next month/year." . Maybe MongoDB is so cheap in the future but it is hard to see to the future :)
+
+joking aside, MySQL is making PHP more powerful and easy to use in PHP. You are using your memory together with PHP code and MySQL data together in 1 server(GoDaddy). Easy to find source about that also have amazing communication if you need answer about your error :)
+
+![mysql](https://itsilesia.com/wp-content/uploads/2018/11/mysql-logo.jpg)
+
+### 12. MySQL
+
+| Number | Subject            |
+| ---    | ---                |
