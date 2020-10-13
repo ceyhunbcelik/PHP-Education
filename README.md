@@ -279,7 +279,9 @@ easy to use session login app and also redirect by header() function after login
 we should use function to create cookie and can use like a session value but delete of cookie is so weird..
 
 #### 4. Time-Adjusted Session
--
+Maybe depend my localhost but it didn't work to me. Anyway, i will explain.
+
+Keep time in session while make login operations and check time() every time and if passed, destroy all of sessions
 
 #### 5. Deploy Array in Cookie and Session
 -
