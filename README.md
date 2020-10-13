@@ -301,7 +301,7 @@ so simple for session, assign an array value and that's it. first params should 
 Simple upload form. input should be file and put enctype in form tag
 
 #### 2. Get File Info by $_FILES
--
+Catching file data by $_FILES value error return 4 means file not uploaded
 
 #### 3. Upload File
 -
