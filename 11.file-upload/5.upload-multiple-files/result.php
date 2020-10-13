@@ -11,7 +11,7 @@
       } elseif ($error != 0){
         $result['error'][] = 'Error: Somethings wrong! #' . $files['name'][$index];
       }
-    }
+    } 
 
     // Not Error
     if(!isset($result['error'])){
