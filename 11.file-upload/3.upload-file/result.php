@@ -30,7 +30,7 @@
           $upload = move_uploaded_file($_FILES['file']['tmp_name'], 'upload/' . $name);
 
             if($upload){
-              echo '<h3>Dosyanız başarıyla yüklendi.</h3>';
+              echo '<h3>Uploaded Successfully!</h3>';
               echo '<img src="upload/' . $name . '">';
             } else{
                 echo "Opps! There is a problem!";

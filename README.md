@@ -305,7 +305,7 @@ Catching file data by $_FILES value error return 4 means file not uploaded
 we are uploading file and check format, tmp_name and size before uploading.
 
 #### 4. Convert to the Function
--
+my upload codes are turned to function. Errors and true result return in array.
 
 #### 5. Upload Multiple Files
 -
