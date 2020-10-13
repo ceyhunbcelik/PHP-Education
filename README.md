@@ -287,7 +287,7 @@ Keep time in session while make login operations and check time() every time and
 #### 5. Deploy Array in Cookie and Session
 so simple for session, assign an array value and that's it. first params should be array and index is name of value. I know cookie is weird in PHP.
 
-### 10. File Upload
+### 11. File Upload
 
 | Number | Subject                  |
 | ---    | ---                      |
