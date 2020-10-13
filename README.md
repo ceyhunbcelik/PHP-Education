@@ -273,7 +273,7 @@ possible to rename file and folder and also move file and folder only need 1 fun
 before beginning, we need to start session but in index page. after than assign in a session value. Possible to destroy all session or selected session.
 
 #### 2. Login App
--
+easy to use session login app and also redirect by header() function after login.
 
 #### 3. Create/Use/Delete Cookie
 -
