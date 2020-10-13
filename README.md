@@ -284,4 +284,4 @@ Maybe depend my localhost but it didn't work to me. Anyway, i will explain.
 Keep time in session while make login operations and check time() every time and if passed, destroy all of sessions
 
 #### 5. Deploy Array in Cookie and Session
--
+so simple for session, assign an array value and that's it. first params should be array and index is name of value. I know cookie is weird in PHP.
