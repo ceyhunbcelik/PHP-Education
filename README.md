@@ -298,7 +298,7 @@ so simple for session, assign an array value and that's it. first params should 
 | 5      | Upload Multiple Files    |
 
 #### 1. Form Example
--
+Simple upload form. input should be file and put enctype in form tag
 
 #### 2. Get File Info by $_FILES
 -
