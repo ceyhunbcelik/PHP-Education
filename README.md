@@ -308,4 +308,4 @@ we are uploading file and check format, tmp_name and size before uploading.
 my upload codes are turned to function. Errors and true result return in array.
 
 #### 5. Upload Multiple Files
--
+possible to upload multiple file like a upload once with same rules.

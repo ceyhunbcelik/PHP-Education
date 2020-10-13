@@ -13,7 +13,7 @@
           'image/gif'
         ];
 
-    $valid_file_size = (1024 * 1014) * $size; // 1 MB
+    $valid_file_size = (1024 * 1024) * $size; // 1 MB
 
     if($file['error'] == 4){
 
