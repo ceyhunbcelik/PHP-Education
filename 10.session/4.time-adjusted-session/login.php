@@ -16,7 +16,7 @@
 
       $_SESSION['username'] = $username;
       // header() - redirect
-      header('Location:/10.session/2.login-app');
+      header('Location:/10.session/4.time-adjusted-session/');
     }
   }
  ?>

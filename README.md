@@ -280,8 +280,6 @@ easy to use session login app and also redirect by header() function after login
 we should use function to create cookie and can use like a session value but delete of cookie is so weird..
 
 #### 4. Time-Adjusted Session
-Maybe depend my localhost but it didn't work to me. Anyway, i will explain.
-
 Keep time in session while make login operations and check time() every time and if passed, destroy all of sessions
 
 #### 5. Deploy Array in Cookie and Session
@@ -304,7 +302,7 @@ Simple upload form. input should be file and put enctype in form tag
 Catching file data by $_FILES value error return 4 means file not uploaded
 
 #### 3. Upload File
--
+we are uploading file and check format, tmp_name and size before uploading.
 
 #### 4. Convert to the Function
 -

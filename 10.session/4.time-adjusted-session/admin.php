@@ -2,4 +2,4 @@
 <?= $_SESSION['username'] ?>
 
 <br>
-<a href="/10.session/2.login-app/logout.php">[LOG OUT]</a>
+<a href="/10.session/4.time-adjusted-session/logout.php">[LOG OUT]</a>

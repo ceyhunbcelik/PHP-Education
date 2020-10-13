@@ -7,7 +7,7 @@
   if(isset($_SESSION['time']) && time() > $_SESSION['time']){
 
     session_destroy();
-    header('Location:/10.session/2.login-app/');
+    header('Location:/10.session/4.time-adjusted-session/');
   } else{
     $_SESSION['time'] = time() + 10;
   }
