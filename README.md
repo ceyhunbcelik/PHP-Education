@@ -276,7 +276,7 @@ before beginning, we need to start session but in index page. after than assign 
 easy to use session login app and also redirect by header() function after login.
 
 #### 3. Create/Use/Delete Cookie
--
+we should use function to create cookie and can use like a session value but delete of cookie is so weird..
 
 #### 4. Time-Adjusted Session
 -
