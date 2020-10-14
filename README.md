@@ -325,6 +325,10 @@ joking aside, MySQL is making PHP more powerful and easy to use in PHP. Using yo
 | Number | Subject                            |
 | ---    | ---                                |
 | 1      | Create/Delete/List/Select Database |
+| 2      | Create/List/Delete Table           |
 
 #### 1. Create/Delete/List/Select Database
 Simple comment(CREATE, DROP, SHOW, USE) to make create, delete, list and select database
+
+#### 2. Create/Delete/List/Select Database
+Simple comment(CREATE, RENAME, DROP, SHOW) to make create, rename, delete, and list tables.
