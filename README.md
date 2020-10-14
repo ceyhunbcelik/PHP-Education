@@ -322,5 +322,9 @@ joking aside, MySQL is making PHP more powerful and easy to use in PHP. Using yo
 
 ### 12. MySQL
 
-| Number | Subject            |
-| ---    | ---                |
+| Number | Subject                            |
+| ---    | ---                                |
+| 1      | Create/Delete/List/Select Database |
+
+#### 1. Create/Delete/List/Select Database
+Simple comment(CREATE, DROP, SHOW, USE) to make create, delete, list and select database
