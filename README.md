@@ -322,13 +322,21 @@ joking aside, MySQL is making PHP more powerful and easy to use in PHP. Using yo
 
 ### 12. MySQL
 
-| Number | Subject                            |
-| ---    | ---                                |
-| 1      | Create/Delete/List/Select Database |
-| 2      | Create/Rename/Delete/List Table    |
+| Number | Subject                                |
+| ---    | ---                                    |
+| 1      | Create/Delete/List/Select Database     |
+| 2      | Create/Rename/Delete/List Table        |
+| 3      | Create/Rename/Delete Column            |
+| 4      | PRIMARY KEY and AUTO INCREMENT Columns |
 
 #### 1. Create/Delete/List/Select Database
-Simple comment(CREATE, DROP, SHOW, USE) to make create, delete, list and select database
+Simple comments(CREATE, DROP, SHOW, USE) to make create, delete, list and select database
 
 #### 2. Create/Rename/Delete/List Table
-Simple comment(CREATE, RENAME, DROP, SHOW) to make create, rename, delete, and list tables.
+Simple comments(CREATE, RENAME, DROP, SHOW) to make create, rename, delete, and list table.
+
+#### 3. Create/Rename/Delete Column
+Simple comments(CREATE, CHANGE, DROP) to make create, rename and delete column
+
+#### 4. PRIMARY KEY and AUTO INCREMENT Columns
+-
