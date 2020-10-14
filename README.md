@@ -339,4 +339,4 @@ Simple comments(CREATE, RENAME, DROP, SHOW) to make create, rename, delete, and 
 Simple comments(CREATE, CHANGE, DROP) to make create, rename and delete column
 
 #### 4. PRIMARY KEY and AUTO INCREMENT Columns
--
+using for make non repeat special column like ID and increase ID in every insert
