@@ -2,6 +2,12 @@
 
 This repository is keeping my PHP codes and folders. Also i want to say my customers and my employer 'I learned  PHP rules from zero to top '  with this repository meaning proof. 🐘
 
+<p align="center">
+    <a href="https://www.buymeacoffee.com/" target="_blank">
+      <img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" >
+    </a>
+</p>
+
 ## Why PHP?
 First of all, i was know basic of PHP but that time when i was second year of college, i just want to have fun and never thinking be professional because it was fast to learn to do anything and was feeling cool make any website in that years.
 
@@ -348,7 +354,3 @@ using for make non repeat special column like ID and increase ID in every insert
 ## License
 
 This project is licensed under the Apache-2.0 License - see the [LICENSE](LICENSE) file for details
-
-<p align="center">
-    <a href="https://www.buymeacoffee.com/" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
-</p>
