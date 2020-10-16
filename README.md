@@ -328,6 +328,7 @@ joking aside, MySQL is making PHP more powerful and easy to use in PHP. Using yo
 | 2      | Create/Rename/Delete/List Table        |
 | 3      | Create/Rename/Delete Column            |
 | 4      | PRIMARY KEY and AUTO INCREMENT Columns |
+| 5      | Detailed Listing of Tables and Columns |
 
 #### 1. Create/Delete/List/Select Database
 Simple comments(CREATE, DROP, SHOW, USE) to make create, delete, list and select database
@@ -340,3 +341,10 @@ Simple comments(CREATE, CHANGE, DROP) to make create, rename and delete column
 
 #### 4. PRIMARY KEY and AUTO INCREMENT Columns
 using for make non repeat special column like ID and increase ID in every insert
+
+#### 5. Detailed Listing of Tables and Columns
+-
+
+## License
+
+This project is licensed under the Apache-2.0 License - see the [LICENSE](LICENSE) file for details
