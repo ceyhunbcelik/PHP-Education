@@ -349,7 +349,7 @@ Simple comments(CREATE, CHANGE, DROP) to make create, rename and delete column
 using for make non repeat special column like ID and increase ID in every insert
 
 #### 5. Detailed Listing of Tables and Columns
--
+Different way to see type of table columns. See details of tables in database
 
 ## License
 
