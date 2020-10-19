@@ -355,13 +355,13 @@ Different way to see type of table columns. See details of tables in database
 making possible to add value in selected columns in table
 
 #### 7. Fetching Value(SELECT)
-possible to fetch all of or selected value of columns and also give a name to columns and filter by WHERE parameter.
+possible to fetch all of or selected value of columns and also give a name to columns and filter by WHERE pa rameter.
 
 #### 8. Update Value(UPDATE)
 We can update selected value by WHERE command and if we don't use WHERE, every value will be same update
 
 #### 9. Delete Value(DELETE)
--
+Delete a selected value by WHERE parameter and if you don't use WHERE parameter, will be delete all of data
 
 ## License
 
