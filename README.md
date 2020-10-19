@@ -369,7 +369,7 @@ We can update selected data by WHERE command and if we don't use WHERE, every da
 Delete a selected data by WHERE parameter and if you don't use WHERE parameter, will be delete all of data
 
 #### 10. Sorting Data(ORDER BY)
--
+sorting, sorting multiple columns and reverse sorting
 
 ## License
 
