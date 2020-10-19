@@ -357,6 +357,9 @@ making possible to add value in selected columns in table
 #### 7. Fetching Value(SELECT)
 possible to fetch all of or selected value of columns and also give a name to columns and filter by WHERE parameter.
 
+#### 8. Update Value(UPDATE)
+We can update selected value by WHERE command and if we don't use WHERE, every value will be same update
+
 ## License
 
 This project is licensed under the Apache-2.0 License - see the [LICENSE](LICENSE) file for details
