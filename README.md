@@ -354,6 +354,8 @@ Different way to see type of table columns. See details of tables in database
 #### 6. Adding Value(INSERT)
 making possible to add value in selected columns in table
 
+#### 7. Fetching Value(SELECT)
+possible to fetch all of or selected value of columns and also give a name to columns and filter by WHERE parameter.
 
 ## License
 
