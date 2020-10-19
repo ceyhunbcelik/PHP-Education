@@ -335,6 +335,11 @@ joking aside, MySQL is making PHP more powerful and easy to use in PHP. Using yo
 | 3      | Create/Rename/Delete Column            |
 | 4      | PRIMARY KEY and AUTO INCREMENT Columns |
 | 5      | Detailed Listing of Tables and Columns |
+| 6      | Adding Data(INSERT)                    |
+| 7      | Fetching Data(SELECT)                  |
+| 8      | Update Data(UPDATE)                    |
+| 9      | Delete Data(DELETE)                    |
+| 10     | Sorting Data(ORDER BY)                 |
 
 #### 1. Create/Delete/List/Select Database
 Simple comments(CREATE, DROP, SHOW, USE) to make create, delete, list and select database
@@ -351,17 +356,20 @@ using for make non repeat special column like ID and increase ID in every insert
 #### 5. Detailed Listing of Tables and Columns
 Different way to see type of table columns. See details of tables in database
 
-#### 6. Adding Value(INSERT)
-making possible to add value in selected columns in table
+#### 6. Adding Data(INSERT)
+making possible to add data in selected columns in table
 
-#### 7. Fetching Value(SELECT)
-possible to fetch all of or selected value of columns and also give a name to columns and filter by WHERE pa rameter.
+#### 7. Fetching Data(SELECT)
+possible to fetch all of or selected data of columns and also give a name to columns and filter by WHERE parameter.
 
-#### 8. Update Value(UPDATE)
-We can update selected value by WHERE command and if we don't use WHERE, every value will be same update
+#### 8. Update Data(UPDATE)
+We can update selected data by WHERE command and if we don't use WHERE, every data will be same update
 
-#### 9. Delete Value(DELETE)
-Delete a selected value by WHERE parameter and if you don't use WHERE parameter, will be delete all of data
+#### 9. Delete Data(DELETE)
+Delete a selected data by WHERE parameter and if you don't use WHERE parameter, will be delete all of data
+
+#### 10. Sorting Data(ORDER BY)
+-
 
 ## License
 

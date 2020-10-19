@@ -15,7 +15,7 @@ INSERT INTO users(
   user_pass - column
   user_mail - column
 
-  'test1'             - value of "username" column
-  'password1'         - value of "user_pass" column
-  'testmail@mail.com' - value of "user_mail" column
+  'test1'             - data of "username" column
+  'password1'         - data of "user_pass" column
+  'testmail@mail.com' - data of "user_mail" column
 */
