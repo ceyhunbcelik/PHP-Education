@@ -351,6 +351,10 @@ using for make non repeat special column like ID and increase ID in every insert
 #### 5. Detailed Listing of Tables and Columns
 Different way to see type of table columns. See details of tables in database
 
+#### 6. Adding Value(INSERT)
+making possible to add value in selected columns in table
+
+
 ## License
 
 This project is licensed under the Apache-2.0 License - see the [LICENSE](LICENSE) file for details
