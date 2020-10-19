@@ -340,6 +340,7 @@ joking aside, MySQL is making PHP more powerful and easy to use in PHP. Using yo
 | 8      | Update Data(UPDATE)                    |
 | 9      | Delete Data(DELETE)                    |
 | 10     | Sorting Data(ORDER BY)                 |
+| 11     | Limit in Data(LIMIT)                   |
 
 #### 1. Create/Delete/List/Select Database
 Simple comments(CREATE, DROP, SHOW, USE) to make create, delete, list and select database
@@ -370,6 +371,9 @@ Delete a selected data by WHERE parameter and if you don't use WHERE parameter, 
 
 #### 10. Sorting Data(ORDER BY)
 sorting, sorting multiple columns and reverse sorting
+
+#### 11. Limit in Data(LIMIT)
+fetch limited data, fetch limited data in reverse sorting and skip data then fetch data
 
 ## License
 
