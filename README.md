@@ -360,6 +360,9 @@ possible to fetch all of or selected value of columns and also give a name to co
 #### 8. Update Value(UPDATE)
 We can update selected value by WHERE command and if we don't use WHERE, every value will be same update
 
+#### 9. Delete Value(DELETE)
+-
+
 ## License
 
 This project is licensed under the Apache-2.0 License - see the [LICENSE](LICENSE) file for details
