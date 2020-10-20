@@ -402,7 +402,7 @@ We can make filter by "BETWEEN" command rather than comparison and logical opera
 #### 17. Associated Tables(JOIN)
 using to merge associated tables by id or anything else
 
-### 12. PDO
+### 13. PDO
 
 Note: This part is going to be intertwined that's why i will explain under subject how to use PDO commands. Won't be part by part folders in this topic.
 
