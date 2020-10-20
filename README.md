@@ -35,6 +35,7 @@ I think we shouldn't look what is the best of programming language. I think we s
 | 10     | Session                       |
 | 11     | File Upload                   |
 | 12     | MySQL                         |
+| 13     | PDO                           |
 
 ### 1. Introduction
 
@@ -401,6 +402,16 @@ We can make filter by "BETWEEN" command rather than comparison and logical opera
 #### 17. Associated Tables(JOIN)
 using to merge associated tables by id or anything else
 
-## License
+### 12. PDO
 
+Note: This part is going to be intertwined that's why i will explain under subject how to use PDO commands. Won't be part by part folders in this topic.
+
+| Number | Subject           |
+| ---    | ---               |
+| 1      | Connect Database  |
+
+#### 1. Connect Database
+-
+
+## License
 This project is licensed under the Apache-2.0 License - see the [LICENSE](LICENSE) file for details
