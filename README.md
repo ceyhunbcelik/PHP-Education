@@ -342,6 +342,7 @@ joking aside, MySQL is making PHP more powerful and easy to use in PHP. Using yo
 | 10     | Sorting Data(ORDER BY)                 |
 | 11     | Limit in Data(LIMIT)                   |
 | 12     | Make Group(GROUP BY) Data and HAVING   |
+| 13     | Search Data(LIKE)                      |
 
 #### 1. Create/Delete/List/Select Database
 Simple comments(CREATE, DROP, SHOW, USE) to make create, delete, list and select database
@@ -378,6 +379,9 @@ fetch limited data, fetch limited data in reverse sorting and skip data then fet
 
 #### 12. Make Group(GROUP BY) Data and HAVING
 we can make data group and make operation and make analysis from groups.
+
+#### 13. Search Data(LIKE)
+we can filter data by selected character. Selected character can be start or finish or have inside selected character.
 
 ## License
 
