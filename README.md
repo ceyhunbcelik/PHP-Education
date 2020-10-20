@@ -345,6 +345,7 @@ joking aside, MySQL is making PHP more powerful and easy to use in PHP. Using yo
 | 13     | Search Data(LIKE)                      |
 | 14     | Search Data(IN)                        |
 | 15     | Search Data(FIND_IN_SET)               |
+| 16     | Fetch Data in Between 2 value(BETWEEN) |
 
 #### 1. Create/Delete/List/Select Database
 Simple comments(CREATE, DROP, SHOW, USE) to make create, delete, list and select database
@@ -392,6 +393,9 @@ when we make filter by id or value but no filter by character,  this is the best
 Generally we are convert array data to string data for adding.  So we need to string filter when we search in that data and this command(FIND_IN_SET) working to filter in string like array.
 
 - ('b', 'a,b,c,d') return 2
+
+#### 16. Fetch Data in Between 2 value(BETWEEN)
+We can make filter by "BETWEEN" command rather than comparison and logical operators.
 
 ## License
 

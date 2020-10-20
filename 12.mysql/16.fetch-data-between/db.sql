@@ -1,0 +1,8 @@
+SELECT * FROM calisanlar
+WHERE maas > 2000 && maas < 3000
+
+SELECT * FROM calisanlar
+WHERE maas BETWEEN 2000 AND 3000
+
+SELECT * FROM users
+WHERE user_date BETWEEN '2020-10-10' AND '2020-10-20'
