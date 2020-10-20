@@ -377,7 +377,7 @@ sorting, sorting multiple columns and reverse sorting
 fetch limited data, fetch limited data in reverse sorting and skip data then fetch data
 
 #### 12. Make Group(GROUP BY) Data and HAVING
--
+we can make data group and make operation and make analysis from groups.
 
 ## License
 
