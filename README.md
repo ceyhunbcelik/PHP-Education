@@ -343,6 +343,7 @@ joking aside, MySQL is making PHP more powerful and easy to use in PHP. Using yo
 | 11     | Limit in Data(LIMIT)                   |
 | 12     | Make Group(GROUP BY) Data and HAVING   |
 | 13     | Search Data(LIKE)                      |
+| 14     | Search Data(IN)                        |
 
 #### 1. Create/Delete/List/Select Database
 Simple comments(CREATE, DROP, SHOW, USE) to make create, delete, list and select database
@@ -382,6 +383,9 @@ we can make data group and make operation and make analysis from groups.
 
 #### 13. Search Data(LIKE)
 we can filter data by selected character. Selected character can be start or finish or have inside selected character.
+
+#### 14. Search Data(IN)
+when we make filter by id or value but no filter by character,  this is the best way to use.
 
 ## License
 
