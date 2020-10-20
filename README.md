@@ -406,12 +406,23 @@ using to merge associated tables by id or anything else
 
 Note: This part is going to be intertwined that's why i will explain under subject how to use PDO commands. Won't be part by part folders in this topic.
 
-| Number | Subject           |
-| ---    | ---               |
-| 1      | Connect Database  |
+| Number | Subject                 |
+| ---    | ---                     |
+| 1      | Connect Database        |
+| 2      | Add Data by PDO(INSERT) |
 
 #### 1. Connect Database
--
+
+
+``` php
+try {
+  $db = new PDO('mysql:host=localhost;dbname=database_name', 'username', 'password');
+} catch (PDOException $e) {
+  echo $e -> getMessage();
+}
+```
+
+#### 2. Add Data by PDO(INSERT)
 
 ## License
 This project is licensed under the Apache-2.0 License - see the [LICENSE](LICENSE) file for details
