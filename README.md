@@ -346,6 +346,7 @@ joking aside, MySQL is making PHP more powerful and easy to use in PHP. Using yo
 | 14     | Search Data(IN)                        |
 | 15     | Search Data(FIND_IN_SET)               |
 | 16     | Fetch Data in Between 2 value(BETWEEN) |
+| 17     | Associated Tables(JOIN)                |
 
 #### 1. Create/Delete/List/Select Database
 Simple comments(CREATE, DROP, SHOW, USE) to make create, delete, list and select database
@@ -396,6 +397,9 @@ Generally we are convert array data to string data for adding.  So we need to st
 
 #### 16. Fetch Data in Between 2 value(BETWEEN)
 We can make filter by "BETWEEN" command rather than comparison and logical operators.
+
+#### 17. Associated Tables(JOIN)
+using to merge associated tables by id or anything else
 
 ## License
 
