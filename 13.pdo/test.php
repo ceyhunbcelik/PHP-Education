@@ -1,5 +1,8 @@
 <?php
 
+  require_once('CeyhunDB/CeyhunDB.php');
+  $sql = new sqlStatements();
+
   $data = $sql -> select('*')
                -> from('lessons')
                -> query('fetchall');

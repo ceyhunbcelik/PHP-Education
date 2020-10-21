@@ -1,8 +1,4 @@
 <?php
-
-  require_once('CeyhunDB/CeyhunDB.php');
-  $sql = new sqlStatements();
-
   require_once('connect.php');
 
   if(!isset($_GET['page'])){

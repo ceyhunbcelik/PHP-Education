@@ -443,7 +443,7 @@ if($insert){
 
 #### 3. Pull Data by PDO(SELECT)
 
-##### query & fetchAll
+##### [query & fetchAll]
 - pull data by query and fetch all by fetchAll
 
 ``` php
