@@ -457,5 +457,14 @@ $data = $db -> query('SELECT * FROM table') -> fetchAll(PDO::FETCH_ASSOC);
 $data = $db -> query('SELECT * FROM table WHERE column = value') -> fetch(PDO::FETCH_ASSOC);
 ```
 
+##### [prepare & fetch]
+- pull data by prepare and fetch only 1 data by fetch
+``` php
+$query = $db -> prepare('SELECT * FROM table WHERE column = ?');
+$query -> execute(['value']);
+
+$data = $query -> fetch(PDO::FETCH_ASSOC);
+```
+
 ## License
 This project is licensed under the Apache-2.0 License - see the [LICENSE](LICENSE) file for details
