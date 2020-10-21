@@ -447,7 +447,14 @@ if($insert){
 - pull data by query and fetch all by fetchAll
 
 ``` php
-$data = $db -> query('SELECT * FROM lessons')->fetchAll(PDO::FETCH_ASSOC);
+$data = $db -> query('SELECT * FROM table') -> fetchAll(PDO::FETCH_ASSOC);
+```
+
+##### [query & fetch]
+- pull data by query and fetch only 1 data by fetch
+
+``` php
+$data = $db -> query('SELECT * FROM table WHERE column = value') -> fetch(PDO::FETCH_ASSOC);
 ```
 
 ## License
