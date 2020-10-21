@@ -412,8 +412,6 @@ Note: This part is going to be intertwined that's why i will explain under subje
 | 2      | Add Data by PDO(INSERT) |
 
 #### 1. Connect Database
-
-
 ``` php
 try {
   $db = new PDO('mysql:host=localhost;dbname=database_name', 'username', 'password');
@@ -423,6 +421,24 @@ try {
 ```
 
 #### 2. Add Data by PDO(INSERT)
+``` php
+$query = $db -> prepare('INSERT INTO table SET
+column1 = ?,
+column2 = ?,
+column3 = ?');
+
+$insert = $query -> execute([
+  'value1', 'value2', 'value3'
+]);
+
+if($insert){
+  // True
+} else{
+  // False
+  $error = $query -> errorInfo();
+  echo 'MySQL Error: ' . $error[2];
+}
+```
 
 ## License
 This project is licensed under the Apache-2.0 License - see the [LICENSE](LICENSE) file for details
