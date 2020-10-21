@@ -406,10 +406,11 @@ using to merge associated tables by id or anything else
 
 Note: This part is going to be intertwined that's why i will explain under subject how to use PDO commands. Won't be part by part folders in this topic.
 
-| Number | Subject                 |
-| ---    | ---                     |
-| 1      | Connect Database        |
-| 2      | Add Data by PDO(INSERT) |
+| Number | Subject                  |
+| ---    | ---                      |
+| 1      | Connect Database         |
+| 2      | Add Data by PDO(INSERT)  |
+| 3      | Pull Data by PDO(SELECT) |
 
 #### 1. Connect Database
 ``` php
@@ -438,6 +439,15 @@ if($insert){
   $error = $query -> errorInfo();
   echo 'MySQL Error: ' . $error[2];
 }
+```
+
+#### 3. Pull Data by PDO(SELECT)
+
+##### query & fetchAll
+- pull data by query and fetch all by fetchAll
+
+``` php
+$lessons = $db -> query('SELECT * FROM lessons')->fetchAll(PDO::FETCH_ASSOC);
 ```
 
 ## License

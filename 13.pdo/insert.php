@@ -1,3 +1,5 @@
+<?php require_once('header.php') ?>
+
 <?php
 
   /*
@@ -17,9 +19,6 @@
     echo 'MySQL Error: ' . $error[2];
   }
   */
-
-  require_once('CeyhunDB/CeyhunDB.php');
-  $sql = new sqlStatements();
 
   // Form POST
   if(isset($_POST['submit'])){

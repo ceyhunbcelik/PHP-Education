@@ -1,5 +1,8 @@
 <?php
 
+  require_once('CeyhunDB/CeyhunDB.php');
+  $sql = new sqlStatements();
+
   require_once('connect.php');
 
   if(!isset($_GET['page'])){
@@ -16,9 +19,17 @@
       require_once('insert.php');
     break;
 
+    case 'read':
+      require_once('read.php');
+    break;
+
+    case 'test':
+      require_once('test.php');
+    break;
+
     default:
       // code...
-      break;
+    break;
   }
 
  ?>
