@@ -447,7 +447,7 @@ if($insert){
 - pull data by query and fetch all by fetchAll
 
 ``` php
-$lessons = $db -> query('SELECT * FROM lessons')->fetchAll(PDO::FETCH_ASSOC);
+$data = $db -> query('SELECT * FROM lessons')->fetchAll(PDO::FETCH_ASSOC);
 ```
 
 ## License
