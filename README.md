@@ -459,11 +459,22 @@ $data = $db -> query('SELECT * FROM table WHERE column = value') -> fetch(PDO::F
 
 ##### [prepare & fetch]
 - pull data by prepare and fetch only 1 data by fetch
+
 ``` php
 $query = $db -> prepare('SELECT * FROM table WHERE column = ?');
 $query -> execute(['value']);
 
 $data = $query -> fetch(PDO::FETCH_ASSOC);
+```
+
+##### [prepare & fetchAll]
+- pull data by prepare and fetch all by fetchAll
+
+``` php
+$query = $db -> prepare('SELECT * FROM table WHERE column = ?');
+$query -> execute(['value']);
+
+$data = $query -> fetchAll(PDO::FETCH_ASSOC);
 ```
 
 ## License
