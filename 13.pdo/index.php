@@ -1,4 +1,5 @@
 <?php
+  ob_start();
   require_once('connect.php');
 
   if(!isset($_GET['page'])){
@@ -17,6 +18,10 @@
 
     case 'read':
       require_once('read.php');
+    break;
+
+    case 'update':
+      require_once('update.php');
     break;
 
     case 'test':
