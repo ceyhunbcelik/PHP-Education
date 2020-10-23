@@ -58,7 +58,7 @@
    Title:<br>
    <input type="text" name="title" value="<?= isset($_POST['title']) ? $_POST['title'] : '' ?>"><br>
    Content:<br>
-   <textarea name="content" rows="8" cols="80"><?= isset($_POST['content']) ? $_POST['content'] : ' ' ?></textarea><br>
+   <textarea name="content" rows="8" cols="80"><?= isset($_POST['content']) ? $_POST['content'] : '' ?></textarea><br>
    Confirmation:<br>
    <select name="confirmation">
      <option value="1">Yes</option>

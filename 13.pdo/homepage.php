@@ -32,7 +32,7 @@
       <?php if ($lesson['confirmation'] == 1): ?>
         <a href="index.php?page=read&id=<?= $lesson['id'] ?>">[READ]</a>
       <?php endif; ?>
-      <a href="index.php?page=edit&id=<?= $lesson['id'] ?>">[EDIT]</a>
+      <a href="index.php?page=update&id=<?= $lesson['id'] ?>">[UPDATE]</a>
       <a href="index.php?page=edit&id=<?= $lesson['id'] ?>">[DELETE]</a>
     </li>
   <?php endforeach; ?>
