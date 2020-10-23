@@ -24,6 +24,10 @@
       require_once('update.php');
     break;
 
+    case 'delete':
+      require_once('delete.php');
+    break;
+
     case 'test':
       require_once('test.php');
     break;

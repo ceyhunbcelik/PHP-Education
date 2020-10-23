@@ -412,6 +412,7 @@ Note: This part is going to be intertwined that's why i will explain under subje
 | 2      | Add Data by PDO(INSERT)    |
 | 3      | Pull Data by PDO(SELECT)   |
 | 4      | Update Data by PDO(UPDATE) |
+| 5      | Delete Data by PDO(DELETE) |
 
 #### 1. Connect Database
 ``` php
@@ -490,6 +491,13 @@ WHERE id = ?');
 $update = $query -> execute([
   'value1', 'value2', 'value3', 'value4'
 ]);
+```
+
+#### 5. Delete Data by PDO(DELETE)
+
+``` php
+$query = $db -> prepare('DELETE FROM table WHERE id = ?');
+$delete = $query -> execute([ 'value' ]);
 ```
 
 ## License
