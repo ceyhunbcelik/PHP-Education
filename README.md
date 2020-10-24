@@ -413,6 +413,7 @@ Note: This part is going to be intertwined that's why i will explain under subje
 | 3      | Pull Data by PDO(SELECT)   |
 | 4      | Update Data by PDO(UPDATE) |
 | 5      | Delete Data by PDO(DELETE) |
+| 6      | Join Table by PDO(JOIN)    |
 
 #### 1. Connect Database
 ``` php
@@ -498,6 +499,20 @@ $update = $query -> execute([
 ``` php
 $query = $db -> prepare('DELETE FROM table WHERE id = ?');
 $delete = $query -> execute([ 'value' ]);
+```
+
+#### 6. Join Table by PDO(JOIN)
+
+``` php
+$query = $db -> prepare('SELECT lessons.id,
+                                lessons.title,
+                                categories.name as category_name
+                        FROM lessons
+                        INNER JOIN categories
+                        ON lessons.category_id = categories.id
+                        ORDER BY lessons.id DESC');
+$query -> execute();
+$data = $query -> fetchAll(PDO::FETCH_ASSOC);
 ```
 
 ## License

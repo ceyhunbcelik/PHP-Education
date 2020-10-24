@@ -1,3 +1,5 @@
+<?php require_once('header.php') ?>
+
 <?php
   ob_start();
   require_once('connect.php');
@@ -26,6 +28,14 @@
 
     case 'delete':
       require_once('delete.php');
+    break;
+
+    case 'categories':
+      require_once('categories.php');
+    break;
+
+    case 'add_category':
+      require_once('add_category.php');
     break;
 
     case 'test':
