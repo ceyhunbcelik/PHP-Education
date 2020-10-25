@@ -1,17 +1,56 @@
 <h1>HOME PAGE</h1>
 
+<form method="get">
+  <input type="text" class="date" name="start" value="" placeholder="Start Date" value="<?= isset($_GET['start']) ? $_GET['start'] : '' ?>">
+  <input type="text" class="date" name="end" value="" placeholder="End Date" value="<?= isset($_GET['end']) ? $_GET['end'] : '' ?>"><br>
+  <input type="text" name="search" placeholder="Search.." value="<?= isset($_GET['search']) ? $_GET['search'] : '' ?>">
+  <button type="submit">Search</button>
+</form>
+
+<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script type="text/javascript">
+  $( function() {
+    $( ".date" ).datepicker({
+      dateFormat: 'yy-mm-dd'
+    });
+  } );
+</script>
+
 <?php
   // $lessons = $db -> query('SELECT * FROM lessons')->fetchAll(PDO::FETCH_ASSOC);
   // $lessons = $db -> query('SELECT * FROM lessons WHERE id = 3')->fetch(PDO::FETCH_ASSOC);
 
-  $query = $db -> prepare('SELECT lessons.id,
-                                  lessons.title,
-                                  lessons.confirmation,
-                                  categories.name as category_name
-                          FROM lessons
-                          INNER JOIN categories
-                          ON lessons.category_id = categories.id
-                          ORDER BY lessons.id DESC');
+  $where = [];
+
+  $sql = 'SELECT lessons.id,
+                 lessons.title,
+                 lessons.confirmation,
+                 categories.name as category_name
+          FROM lessons
+          INNER JOIN categories
+          ON lessons.category_id = categories.id';
+
+  if(isset($_GET['search']) && !empty($_GET['search'])){
+    $where[] = '(lessons.title LIKE "%' . $_GET['search'] . '%" || lessons.content LIKE "%'. $_GET['search'] .'%")';
+  }
+
+  if(isset($_GET['start']) && !empty($_GET['start']) && isset($_GET['end']) && !empty($_GET['end'])){
+    $where[] = 'lessons.date BETWEEN "' . $_GET['start'] . ' 00:00:00" AND "' . $_GET['end'] . ' 23:59:59"';
+  }
+
+  if(count($where) > 0){
+    $sql .= ' WHERE ' . implode(' && ', $where);
+  }
+
+  $sql .= ' ORDER BY lessons.id DESC';
+
+  echo $sql;
+  echo "<br>";
+  print_r($where);
+
+  $query = $db -> prepare($sql);
   $query -> execute();
   $lessons = $query -> fetchAll(PDO::FETCH_ASSOC);
 
@@ -47,5 +86,9 @@
   <?php endforeach; ?>
 </ul>
 <?php else: ?>
-  <h4>Nothing have</h4>
+  <?php if (isset($_GET['search'])): ?>
+    <h4>Not have searched title</h4>
+  <?php else: ?>
+    <h4>Nothing Have</h4>
+  <?php endif; ?>
 <?php endif; ?>
