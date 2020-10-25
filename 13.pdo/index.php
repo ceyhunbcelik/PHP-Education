@@ -38,6 +38,11 @@
       require_once('add_category.php');
     break;
 
+    case 'category':
+      require_once('category.php');
+    break;
+
+
     case 'test':
       require_once('test.php');
     break;

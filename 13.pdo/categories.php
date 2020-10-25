@@ -2,8 +2,11 @@
 <hr>
 <?php
 
-  $categories = $db -> query('SELECT * FROM categories') -> fetchAll(PDO::FETCH_ASSOC);
-
+  $categories = $db -> query('SELECT categories.*, COUNT(lessons.id) as total
+                              FROM categories
+                              LEFT JOIN lessons
+                              ON categories.id = lessons.category_id
+                              GROUP BY categories.id') -> fetchAll(PDO::FETCH_ASSOC);
 
  ?>
 
@@ -12,6 +15,8 @@
     <li>
       <a href="index.php?page=category&id=<?= $category['id'] ?>">
         <?= $category['name'] ?>
+        -
+        (<?= $category['total']  ?>)
       </a>
     </li>
   <?php endforeach; ?>
