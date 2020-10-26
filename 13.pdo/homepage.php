@@ -27,10 +27,11 @@
   $sql = 'SELECT lessons.id,
                  lessons.title,
                  lessons.confirmation,
-                 categories.name as category_name
+                 GROUP_CONCAT(categories.name) as category_name,
+                 GROUP_CONCAT(categories.id) as category_id
           FROM lessons
           INNER JOIN categories
-          ON lessons.category_id = categories.id';
+          ON FIND_IN_SET(categories.id, lessons.category_id)';
 
   if(isset($_GET['search']) && !empty($_GET['search'])){
     $where[] = '(lessons.title LIKE "%' . $_GET['search'] . '%" || lessons.content LIKE "%'. $_GET['search'] .'%")';
@@ -44,7 +45,7 @@
     $sql .= ' WHERE ' . implode(' && ', $where);
   }
 
-  $sql .= ' ORDER BY lessons.id DESC';
+  $sql .= ' GROUP BY lessons.id ORDER BY lessons.id DESC';
 
   $query = $db -> prepare($sql);
   $query -> execute();
@@ -70,7 +71,14 @@
     <li>
       <?= $lesson['title'] ?>
       -
-      (<?= $lesson['category_name'] ?>)
+      <?php
+        $categoryName = explode(',', $lesson['category_name']);
+        $categoryID = explode(',', $lesson['category_id']);
+
+        foreach ($categoryName as $key => $val) {
+          echo '<a href="index.php?page=category&id='. $categoryID[$key] .'">'. $val .'</a> ';
+        }
+       ?>
       <div class="">
         <?php if ($lesson['confirmation'] == 1): ?>
           <a href="index.php?page=read&id=<?= $lesson['id'] ?>">[READ]</a>
