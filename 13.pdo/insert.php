@@ -47,8 +47,10 @@
         $title, $content, $confirmation, $category_id
       ]);
 
+      $lastID = $db -> lastInsertId();
+
       if($insert){
-        Header('Location:index.php');
+        Header('Location:index.php?page=read&id=' . $lastID);
       } else{
         $error = $query -> errorInfo();
         echo 'MySQL Error: ' . $error[2];
