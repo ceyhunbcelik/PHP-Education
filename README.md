@@ -36,6 +36,8 @@ I think we shouldn't look what is the best of programming language. I think we s
 | 11     | File Upload                   |
 | 12     | MySQL                         |
 | 13     | PDO                           |
+| 14     | SEO                           |
+
 
 ### 1. Introduction
 
@@ -514,6 +516,20 @@ $query = $db -> prepare('SELECT lessons.id,
 $query -> execute();
 $data = $query -> fetchAll(PDO::FETCH_ASSOC);
 ```
+
+### 14. SEO
+
+| Number | Subject                                |
+| ---    | ---                                    |
+| 1      | Manipulate Link by .htaccess           |
+| 2      | Create SEF Link by PHP                 |
+
+#### 1. Manipulate Link by .htaccess
+-
+
+#### 2. Create SEF Link by PHP
+-
+
 
 ## License
 This project is licensed under the Apache-2.0 License - see the [LICENSE](LICENSE) file for details
