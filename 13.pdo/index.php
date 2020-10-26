@@ -46,11 +46,6 @@
       require_once('category.php');
     break;
 
-
-    case 'test':
-      require_once('test.php');
-    break;
-
     default:
       // code...
     break;
