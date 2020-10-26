@@ -5,7 +5,7 @@
   $categories = $db -> query('SELECT categories.*, COUNT(lessons.id) as total
                               FROM categories
                               LEFT JOIN lessons
-                              ON categories.id = lessons.category_id
+                              ON FIND_IN_SET(categories.id, lessons.category_id)
                               GROUP BY categories.id') -> fetchAll(PDO::FETCH_ASSOC);
 
  ?>

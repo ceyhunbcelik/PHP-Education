@@ -18,7 +18,9 @@
   }
 
   // Lessons
-  $query = $db -> prepare('SELECT * FROM lessons WHERE category_id = ?');
+  $query = $db -> prepare('SELECT * FROM lessons
+  WHERE FIND_IN_SET(?, category_id)');
+
   $query -> execute([
     $category['id']
   ]);

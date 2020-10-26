@@ -26,7 +26,7 @@
     $title        = isset($_POST['title']) ? $_POST['title'] : null;
     $content      = isset($_POST['content']) ? $_POST['content'] : null;
     $confirmation = isset($_POST['confirmation']) ? $_POST['confirmation'] : 0;
-    $category_id  = isset($_POST['category_id']) ? $_POST['category_id']: null;
+    $category_id  = isset($_POST['category_id']) && is_array($_POST['category_id']) ? implode(',', $_POST['category_id']) : null;
 
     if(!$title){
       echo 'Please Add Title!';
@@ -67,8 +67,7 @@
    <textarea name="content" rows="8" cols="80"><?= isset($_POST['content']) ? $_POST['content'] : '' ?></textarea><br>
 
    Category:<br>
-   <select name="category_id">
-      <option value="">-- SELECT CATEGORY --</option>
+   <select name="category_id[]" multiple size="5">
     <?php foreach ($categories as $category): ?>
       <option value="<?= $category['id'] ?>"><?= $category['name'] ?></option>
     <?php endforeach; ?>

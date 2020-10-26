@@ -22,9 +22,6 @@
     exit;
   }
 
-  $categories = $db -> query('SELECT * FROM categories ORDER BY name ASC') -> fetchAll(PDO::FETCH_ASSOC);
-
-
   $query = $db -> prepare('SELECT * FROM lessons WHERE id = ?');
   $query -> execute([
     $_GET['id']
@@ -37,16 +34,22 @@
     exit;
   }
 
+  $lessonCategory = explode(',', $lesson['category_id']);
+
+  $categories = $db -> query('SELECT * FROM categories ORDER BY name ASC') -> fetchAll(PDO::FETCH_ASSOC);
+
   if(isset($_POST['submit'])){
     $title        = isset($_POST['title']) ? $_POST['title'] : $lesson['title'];
     $content      = isset($_POST['content']) ? $_POST['content'] : $lesson['content'];
     $confirmation = isset($_POST['confirmation']) ? $_POST['confirmation'] : $lesson['confirmation'];
-    $category_id  = isset($_POST['category_id']) ? $_POST['category_id'] : $lesson['confirmation'];
+    $category_id  = isset($_POST['category_id']) && is_array($_POST['category_id']) ? implode(',', $_POST['category_id']) : null;
 
     if(!$title){
       echo 'Please Add Title!';
     } elseif(!$content){
       echo 'Please Add Content';
+    } elseif (!$category_id) {
+      echo 'Please Select Category';
     } else{
       // UPDATE
       $query = $db -> prepare('UPDATE lessons SET
@@ -78,10 +81,9 @@
    <textarea name="content" rows="8" cols="80"><?= isset($_POST['content']) ? $_POST['content'] : $lesson['content'] ?></textarea><br>
 
    Category:<br>
-   <select name="category_id">
-      <option value="">-- SELECT CATEGORY --</option>
+   <select name="category_id[]" multiple size="5">
     <?php foreach ($categories as $category): ?>
-      <option <?= $category['id'] == $lesson['category_id'] ? ' selected' : null ?> value="<?= $category['id'] ?>"><?= $category['name'] ?></option>
+      <option <?= in_array($category['id'], $lessonCategory) ? ' selected' : null ?> value="<?= $category['id'] ?>"><?= $category['name'] ?></option>
     <?php endforeach; ?>
    </select><br><br>
 

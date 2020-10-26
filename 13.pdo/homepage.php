@@ -46,10 +46,6 @@
 
   $sql .= ' ORDER BY lessons.id DESC';
 
-  echo $sql;
-  echo "<br>";
-  print_r($where);
-
   $query = $db -> prepare($sql);
   $query -> execute();
   $lessons = $query -> fetchAll(PDO::FETCH_ASSOC);
