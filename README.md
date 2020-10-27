@@ -525,7 +525,19 @@ $data = $query -> fetchAll(PDO::FETCH_ASSOC);
 | 2      | Create SEF Link by PHP                 |
 
 #### 1. Manipulate Link by .htaccess
--
+
+``` apacheconf
+index.php?page=test
+```
+
+``` apacheconf
+/test
+```
+
+``` apacheconf
+RewriteEngine On
+RewriteRule ^([0-9a-zA-Z-_/]+)$ index.php?page=$1 [QSA]
+```
 
 #### 2. Create SEF Link by PHP
 -
